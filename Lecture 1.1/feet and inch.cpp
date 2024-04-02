@@ -8,6 +8,6 @@ int main()
 	cout << "enter inches : ";
 	cin >> m;
 	
-	cout << "feet " << n << endl << "inch " << m/10;
+	cout << "feet " << n+3 << endl << "inch " << m/10;
 	return 0;
 }
