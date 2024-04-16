@@ -60,12 +60,12 @@ class D : public A
 int main()
 {
 
-  S s1;
-  s1.getter();
-  B s2;
-  s2.getter1();
-  I s3;
-  s3.getter2();
+  B s1;
+  s1.get();
+  C s2;
+  s2.get1();
+  D s3;
+  s3.get2();
 
 	return 0;
 }
